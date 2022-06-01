@@ -4,7 +4,7 @@ metadata:
   name: myapp-service
 spec:
   selector:
-    app: mydeployhahaha
+    app: my-argo-app
   ports:
   - port: 3000
     protocol: TCP
