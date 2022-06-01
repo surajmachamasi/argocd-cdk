@@ -4,7 +4,7 @@ metadata:
   name: myapp-service
 spec:
   selector:
-    app: helldeploy
+    app: mydeployhahaha
   ports:
   - port: 3000
     protocol: TCP
