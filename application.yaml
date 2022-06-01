@@ -12,7 +12,7 @@ spec:
     path: dev
   destination: 
     server: https://B66B1282DA7552FBE17AAD4860F794C3.gr7.us-east-1.eks.amazonaws.com
-    namespace: myapp
+    namespace: default
 
   syncPolicy:
     syncOptions:
