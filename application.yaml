@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: myapp-argo-application
+  name: demo-app0argo
   namespace: default
 spec:
   project: default
@@ -10,8 +10,10 @@ spec:
     repoURL: https://github.com/surajmachamasi/argocd-cdk.git
     targetRevision: HEAD
     path: dev
+    directory:
+      recurse: true
   destination: 
-    server: https://B66B1282DA7552FBE17AAD4860F794C3.gr7.us-east-1.eks.amazonaws.com
+    server: https://E7D69D3158D1C65C8BA6B3EE3BEEDA37.gr7.us-east-1.eks.amazonaws.com
     namespace: default
 
   syncPolicy:
