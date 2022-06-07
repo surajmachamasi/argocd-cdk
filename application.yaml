@@ -13,7 +13,7 @@ spec:
     directory:
       recurse: true
   destination: 
-    server: https://E7D69D3158D1C65C8BA6B3EE3BEEDA37.gr7.us-east-1.eks.amazonaws.com
+    server: https://73763978CD5BAB4F458FFE443EE13B29.gr7.us-east-1.eks.amazonaws.com
     namespace: default
 
   syncPolicy:
